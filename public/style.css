@@ -1,0 +1,264 @@
+body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .hero-section {
+            position: relative;
+            color: white;
+            text-align: center;
+            padding: 300px 20px 250px 20px;
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: overlay;
+            background-color: rgba(3, 169, 244, 0.7);
+            transition: background-image 0.3s ease-in-out;
+        }
+
+        .hero-text h1 {
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        .hero-text p {
+            font-size: 24px;
+            margin-top: -10px;
+        }
+
+        .navbar {
+            position: fixed;
+            width: 100%;
+            top: 10px;
+            z-index: 4;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar-brand img {
+            width: 100px;
+        }
+
+        .nav-item a {
+            color: black;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        .nav-item:last-child a {
+            background-color: #FFC107;
+            color: #000;
+        }
+
+        .nav-item:last-child a:hover {
+            background-color: #e0a800;
+        }
+
+        .news-button {
+            background-color: #03A9F4;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .news-button:hover {
+            background-color: #FFC107;
+            color: #000;
+            border-color: #FFC107;
+        }
+
+        .form-section {
+            padding: 60px 20px;
+            background-color: #f8f9fa;
+        }
+
+        .form-control-file {
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .thumbnail-card:hover {
+            transform: none;
+            background: none;
+        }
+    
+        /* Gaya tombol news-button */
+        .news-button {
+            background-color: #03A9F4; /* Background biru */
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+    
+        .news-button:hover {
+            background-color: #FFC107; /* Background kuning saat hover */
+            color: #000;
+            border-color: #FFC107;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .hero-section {
+            position: relative;
+            color: white;
+            text-align: center;
+            padding: 300px 20px 250px 20px; /* Adjusted padding to move text slightly down */
+            background-size: cover;
+            background-position: center;
+            background-image: url('travel1.jpeg');
+            background-blend-mode: overlay;
+            background-color: rgba(3, 169, 244, 0.7); /* Added blue gradient to background image */
+            transition: background-image 0.3s ease-in-out;
+        }
+
+        .hero-text {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-text h1 {
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        .hero-text p {
+            font-size: 24px;
+            margin-top: -10px;
+        }
+
+        .card-group {
+            position: relative;
+            z-index: 3;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .navbar {
+            position: fixed;
+            width: 100%;
+            top: 10px;
+            z-index: 4;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: center; /* Center the navbar */
+        }
+
+        .navbar-brand img {
+            width: 100px;
+        }
+
+        .nav-item {
+            margin: 0 40px;
+        }
+
+        .nav-item a {
+            color: black;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        .nav-item a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            color: white;
+        }
+
+        .nav-item:last-child a {
+            background-color: #FFC107;
+            color: #000;
+        }
+
+        .nav-item:last-child a:hover {
+            background-color: #e0a800;
+        }
+
+        .card-group img {
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .card-group img:hover {
+            transform: scale(1.05);
+        }
+
+        #tentang-program {
+            background-color: #03A9F4;
+            min-height: 100vh; /* Extend section height to full screen */
+            padding-bottom: 50px; /* Added space at bottom */
+
+        }
+
+        .thumbnail-card:hover {
+            transform: none; /* Removed hover transform */
+            background: none; /* Removed hover background */
+        }
+
+        /* Style for the main card */
+        .main-card {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card {
+            background: none;
+        }
+
+        .main-card:hover .main-img {
+            transform: scale(1.05);
+        }
+
+        .main-card:hover .main-title {
+            color: #ffc107;
+        }
+
+        /* Gradient overlay on the main image */
+        .image-gradient {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            background: linear-gradient(to top, rgba(0, 123, 255, 0.8) 0%, rgba(0, 123, 255, 0) 100%);
+        }
+
+        /* Style for the thumbnails */
+        .thumbnail-card {
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .main-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .card-body {
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        .thumbnail-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        /* Button styling */
+        .news-button {
+            background-color: #03A9F4; /* Set button background to blue */
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .news-button:hover {
+            background-color: #FFC107; /* Change to yellow on hover */
+            color: #000;
+            border-color: #FFC107;
+        }
